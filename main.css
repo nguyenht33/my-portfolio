@@ -81,10 +81,15 @@ main {
   font-weight: 600;
 }
 
+.portrait {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 
 @media only screen and (min-width: 1000px) {
   .wrapper {
-    width: 1200px;
+    width: 1600px;
   }
   section {
     display: flex;
