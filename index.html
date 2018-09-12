@@ -4,67 +4,117 @@
     <title>Hung Nguyen's Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Poiret+One" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-    <nav role="navigation">
-      <h1>Hung Nguyen</h1>
-    </nav>
     <main role="main">
       <div class="wrapper">
-        <section>
-          <div class="img-container">
-            <img src="./img/weather-report.jpg" alt="weather-report" class="project-img"/>
-            <div class="img-middle">
-              <div class="view-project project-1">
-                <a href="">Demo</a>
-              </div>
-            </div>
+        <header>
+          <a href="/"><img src="./img/logo.svg" alt="logo" class="logo"/></a>
+          <h1>Hung T. Nguyen</h1>
+        </header>
+        <section class="about-section">
+          <div class="portrait-container">
+            <img src="./img/portrait.jpg" alt="portrait" class="portrait"/>
           </div>
-          <div class="description">
-            <h2>Weather Report</h2>
-            <p>A weather forecast app that let users see the current weather of a location, and forecast for the next 5 days.</p>
-            <a href="">Demo</a>
-            <a href="">Github</a>
+          <div class="about">
+            <h2>Hi, I'm Hung</h2>
+            <p>
+              I come from a creative background and was problem solving with paint, pencil, and pixels. One could say that I invested my skill points to drawing and designing, but I felt that it wasn't enough so I started to code...and code. Wow, I can make an app now! And I want to make more, so feel free to contact me if you need a web developer.
+            </p>
+            <p>
+              <span>Email: </span>nguyenht33@gmail.com
+              <br>
+              <span>Repo: </span><a href="https://github.com/nguyenht33">Github</a>
+            </p>
           </div>
         </section>
-        <section>
-          <div class="img-container">
-            <img src="./img/food-journal.jpg" alt="food-journal" class="project-img"/>
-            <div class="img-middle">
-              <div class="view-project project-2">
-                <a href="">Demo</a>
+        <section class="project-section project-1">
+          <div>
+            <img src="./img/weather-report.jpg" alt="weather-report" class="project-img"/>
+          </div>
+          <div class="description">
+            <h2>Your Weather Report</h2>
+            <div class="description-content">
+              <p>
+                Brr! It's cold in here. Let's use Your Weather Report to check out the atmosphere! This weather forecast app lets you see the current weather of a location, and forecast for the next 5 days.
+                <br/>
+                <a href="https://nguyenht33.github.io/Weather-Forecast/" target="_blank">Demo</a>
+                |
+                <a href="https://github.com/nguyenht33/Weather-Forecast" target="_blank">Github</a>
+              </p>
+              <div class="tools">
+                <h4>Tools Used:</h4>
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript + jQuery</li>
+                  <li>jQuery</li>
+                </ul>
               </div>
             </div>
+          </div>
+        </section>
+        <section class="project-section project-2">
+          <div>
+            <img src="./img/food-journal.jpg" alt="food-journal" class="project-img"/>
           </div>
           <div class="description">
             <h2>On My Plate!</h2>
-            <p>On My Plate is a food journal that lets users keeps record of what they eat everyday. User can keep track of each meal's calories and serving, as well as rank each meal and provide notes on every meal!</p>
-            <a href="">Demo</a>
-            <a href="">Github</a>
+            <div class="description-content">
+              <p>
+                On My Plate is a food journal that lets you keeps record of what you eat everyday. User can keep track of each meal's calories and serving, as well as rank each meal and provide notes on every meal.
+                <br/>
+                <a href="https://sheltered-mountain-50750.herokuapp.com/" target="_blank">Demo</a>
+                |
+                <a href="https://github.com/nguyenht33/food-journal-app" target="_blank">Github</a>
+              </p>
+            <div class="tools">
+              <h4>Tools Used:</h4>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript + jQuery</li>
+                <li>NodeJS + Express</li>
+                <li>Mongo</li>
+              </ul>
+            </div>
           </div>
         </section>
-        <section>
-          <div class="img-container">
+        <section class="project-section project-3">
+          <div>
             <img src="./img/movie-keeper.jpg" alt="movie-keeper" class="project-img"/>
-            <div class="img-middle">
-              <div class="view-project project-3">
-                <a href="">Demo</a>
-              </div>
-            </div>
           </div>
           <div class="description">
             <h2>Movie Keeper</h2>
-            <p>More descriptions to come.</p>
-            <a href="">Demo</a>
-            <a href="">Github</a>
+            <div class="description-content">
+              <p>
+                Movie keeper is an app that lets you keep track of the movies you watched and movies you want to watch. With the ability to rank and review, you can now give that bad movie a piece of your mind!
+                <br/>
+                <a href="https://tranquil-bayou-96032.herokuapp.com/" target="_blank">Demo</a>
+                |
+                <a href="https://github.com/nguyenht33/movie-keeper-client" target="_blank">Github</a>
+              </p>
+              <div class="tools">
+                <h4>Tools Used:</h4>
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>NodeJS + Express</li>
+                  <li>Mongo</li>
+                  <li>React</li>
+                </ul>
+              </div>
           </div>
+        </div>
         </section>
       </div>
     </main>
     <footer>
-      ©2018 Hung Nguyen. All rights reserved.
+      <a href="/"><img src="./img/logo.svg" alt="logo" class="logo"/></a>
     </footer>
   </body>
 </html>
